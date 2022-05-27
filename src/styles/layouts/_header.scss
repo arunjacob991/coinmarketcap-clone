@@ -1,0 +1,29 @@
+@use '../abstracts' as *;
+
+.header {
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    .announcement__header {
+        width: inherit;
+        @include flexCenter(space-between, center, row, 0);
+        &--values {
+            border: 1px solid black;
+            background-color: aqua;
+            @include flexCenter(space-between, center, row, 0);
+            li {
+                @include flexCenter(space-between, center, row, 2px);
+                margin-right: 1rem;
+                div,
+                span {
+                    font-size: $fs-medium;
+                }
+            }
+        }
+        &--actions {
+            border: 1px solid black;
+            background-color: rgb(138, 203, 169);
+        }
+    }
+}

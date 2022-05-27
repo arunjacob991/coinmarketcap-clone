@@ -1,5 +1,12 @@
-function App() {
-    return <div className="App">coinmarketcap-clone</div>;
-}
+import React from 'react';
+import MainRouter from './routes/MainRouter';
+
+const App = () => {
+    return (
+        <>
+            <MainRouter />
+        </>
+    );
+};
 
 export default App;

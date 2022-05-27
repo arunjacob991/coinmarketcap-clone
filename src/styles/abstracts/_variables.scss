@@ -1,0 +1,26 @@
+@use '../base/fonts';
+
+$ff-primary: 'Roboto', sans-serif;
+
+// font sizes...
+$fs-small: 1.1rem;
+$fs-medium: 1.2rem;
+$fs-normal: 1.4rem;
+$fs-heading: 2.4rem;
+
+// colors...
+$clr-black: #000000;
+$clr-white: #ffffff;
+$clr-link: rgb(56, 97, 251);
+$clr-text: rgb(88, 102, 126);
+$clr-up: #16c784;
+$clr-down: #ea3943;
+$clr-box-background: #eff2f5;
+
+// night....
+$clr-neutral-1: #171924;
+$clr-neutral-2: #222531;
+$clr-neutral-3: #323546;
+$clr-neutral-4: #646b80;
+$clr-neutral-5: #858ca2;
+$clr-neutral-6: #a1a7bb;

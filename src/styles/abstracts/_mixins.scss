@@ -1,0 +1,7 @@
+@mixin flexCenter($horizontal_align, $vertical_align, $direction, $value) {
+    display: flex;
+    justify-content: $horizontal_align;
+    align-items: $vertical_align;
+    flex-direction: $direction;
+    gap: $value;
+}
